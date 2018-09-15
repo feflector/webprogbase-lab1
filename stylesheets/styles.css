@@ -1,0 +1,127 @@
+    body {
+        background-image: url(background.jpg);
+        background-attachment: fixed;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .main-container{
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+    }
+
+    .button{
+        text-decoration: none;
+        margin: 5px 0;
+        padding: 5px 5px;
+        color: white;
+        font-size: 18px;
+    }
+    .button:hover{
+        background-color: darkcyan;
+    }
+
+    .header{
+        flex: 1 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header img {
+        float: left;
+        width: 150px;
+        height:  100px;
+    }
+
+    .siteName {
+        color: white;
+        letter-spacing: 0.2cm;
+        text-shadow: 3px 3px 5px red;
+    }
+
+    .content img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content p{
+        color: white;
+    }
+
+    .content table {
+        color: white;
+    }
+
+    .user1Name {
+        margin-left: 120px;
+        margin-top: -105px;
+    }
+
+    .user1Bio {
+        margin-top: 40px;
+    }
+
+    .user1Login {
+        margin-left: 120px;
+    }
+
+    .user1Data {
+        margin-left: 120px;
+    }
+
+    .user2Name {
+        margin-left: 120px;
+        margin-top: -105px;
+    }
+
+    .user2Bio {
+        margin-top: 40px;
+    }
+
+    .user2Login {
+        margin-left: 120px;
+    }
+
+    .user2Data {
+        margin-left: 120px;
+    }
+
+    .steamLogin {
+        margin-left: 120px;
+        margin-top: -100px;
+    }
+
+    .steamPassword {
+        margin-left: 120px;
+    }
+
+    .steamGames {
+        margin-top: 50px;
+    }
+
+    .originLogin {
+        margin-left: 120px;
+        margin-top: -100px;
+    }
+
+    .originPassword {
+        margin-left: 120px;
+    }
+
+    .originGames {
+        margin-top: 50px;
+    }
