@@ -41,6 +41,7 @@
         align-items: center;
     }
 
+
     .header img {
         float: left;
         width: 150px;
@@ -48,9 +49,11 @@
     }
 
     .siteName {
+        margin-left: 100px;
         color: white;
         letter-spacing: 0.2cm;
         text-shadow: 3px 3px 5px red;
+        font-size: 50px;
     }
 
     .content img {
@@ -62,9 +65,16 @@
         color: white;
     }
 
-    .content table {
-        color: white;
+    TABLE {
+        width: 300px;
+        border: 2px solid black;
     }
+
+    TD, TH { 
+        text-align: center;
+        padding: 3px;
+        border: 1px solid black;
+       }
 
     .user1Name {
         margin-left: 120px;
